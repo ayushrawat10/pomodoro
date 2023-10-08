@@ -1,2 +1,2 @@
 all:
-	gcc -o pomodoro pomodoro.c
+	gcc -o pomodoro pomodoro.c -lncurses
