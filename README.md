@@ -1,4 +1,4 @@
-# pomodoro
+# Pomodoro-Timer-CLI
 
 A simple CLI (Command Line Interface) Pomodoro Timer written in C. Utilize this tool to enhance your productivity by dividing your work sessions into focused intervals, separated by short breaks.
 
