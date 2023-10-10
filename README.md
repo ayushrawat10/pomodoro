@@ -24,7 +24,7 @@ brew install pomodoro
 ### Manual Installation
 Clone the repository and compile the source code using the provided Makefile:
 ```sh
-git clone pomodoro-timer-cli
+git clone git@github.com:ayushrawat10/pomodoro-timer-cli.git
 cd pomodoro-timer-cli
 make
 ```
