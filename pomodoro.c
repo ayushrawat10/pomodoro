@@ -311,25 +311,12 @@ int main (int argc, char *argv[]) {
 
     enableRawMode();
     loadConfig(&config);
-    printf("Loaded config values:\n");
-    printf("Work Minutes: %d\n", config.workMinutes);
-    printf("Break Minutes: %d\n", config.breakMinutes);
-    printf("Sessions: %d\n", config.sessions);
-    printf("Work Color: (%d, %d, %d)\n", config.workRed, config.workGreen, config.workBlue);
-    printf("Break Color: (%d, %d, %d)\n", config.breakRed, config.breakGreen, config.breakBlue);
-
-    
+        
     Config tempConfig = config;
     bool runTimer = true;
 
     updateConfigFromCommandLine(argc, argv, &tempConfig, &runTimer);
-    printf("Loaded config values:\n");
-    printf("Work Minutes: %d\n", config.workMinutes);
-    printf("Break Minutes: %d\n", config.breakMinutes);
-    printf("Sessions: %d\n", config.sessions);
-    printf("Work Color: (%d, %d, %d)\n", config.workRed, config.workGreen, config.workBlue);
-    printf("Break Color: (%d, %d, %d)\n", config.breakRed, config.breakGreen, config.breakBlue);
-
+    
     if (runTimer) {
         displayTimer(&tempConfig);
     }
