@@ -66,7 +66,7 @@ This config file will only be created after you use the config command for the f
 ## Customization Configuration
 Customize the default values as per your needs for future sessions.
 ```sh
-pomodoro config work=40 break=10 n=2 "workcolor=(208,53,197) breakcolor=(50,200,50)"
+pomodoro config work=40 break=10 sessions=2 "workcolor=(208,53,197) breakcolor=(50,200,50)"
 ```
 This command will set the future default work duration to 40 minutes, break duration to 10 minutes, and the number of sessions when not mentioned to the value 2. 'workcolor' and 'breakcolor' need to have RGB values and will change the color of the bar as it counts down to 0.
 
