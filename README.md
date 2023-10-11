@@ -1,6 +1,6 @@
 # Pomodoro-Timer-CLI
 
-A simple terminal-based Pomodoro Timer written in C. Utilize this tool to enhance your productivity by dividing your work sessions into focused intervals, separated by short breaks. It is customizable, allowing you to set the work and break periods, and choose different color schemes through a configuration file.
+A simple terminal-based Pomodoro Timer written in C for Mac. Utilize this tool to enhance your productivity by dividing your work sessions into focused intervals, separated by short breaks. It is customizable, allowing you to set the work and break periods, and choose different color schemes through a configuration file.
 
 ## Features
 - **Customize Work and Break Intervals:** Adjust the duration of work and break intervals to suit your needs.
@@ -50,6 +50,17 @@ Run the timer with the default settings if installed manually:
 ```sh
 ./path-to-the-file/pomodoro
 ```
+
+### Default values
+work duration = 25
+break duration = 5 minutes
+number of sessions = 1
+work color = (208,53,197)
+break color = (50,192,50)
+
+#### Note:
+The last session will not run a break timer!
+
 
 ### Customizing the Timer from Command Line
 Customize work and break durations, and session count:
